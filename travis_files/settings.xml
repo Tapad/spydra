@@ -4,9 +4,6 @@
 
     <servers>
         <server>
-            <id>ossrh</id>
-            <username>${env.CI_DEPLOY_USERNAME}</username>
-            <password>${env.CI_DEPLOY_PASSWORD}</password>
             <id>nexus-releases</id>
             <username>nexus-username</username>
             <password>nexus-passphrase</password>
